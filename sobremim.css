@@ -1,0 +1,22 @@
+a{
+    color:white;
+}
+
+.navbar{
+    font-size: 30px;
+}
+
+#h1sobremim{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.sobremim{
+    font-family: Comic Sans MS;
+    font-size: 17px;
+    text-align: justify;
+    padding-right: 25%;
+    padding-left: 25%;
+}
