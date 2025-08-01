@@ -1,0 +1,21 @@
+.navbar{
+    font-size: 30px;
+}
+#h1meusprojetos{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+#sectionChef{
+    margin-left: 3%;
+    margin-right: 10%;
+    text-align: justify;
+}
+video{
+    width: 500px;
+    height: 500px;
+}
+#barco{
+    text-align: center;
+}
