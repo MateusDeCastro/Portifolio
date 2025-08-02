@@ -7,15 +7,50 @@
     margin-left: 15%;
     margin-top: 1%;
 }
-#sectionChef{
-    margin-left: 3%;
-    margin-right: 10%;
-    text-align: justify;
-}
 video{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 }
 #barco{
     text-align: center;
+    margin-left: 30%;
+    padding-right: 30%;
+}
+
+#menu-hover, ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+#menu-hover a{
+    text-decoration: none;
+    color: black;
+    font-family: Comic Sans MS;
+    position: relative;
+    padding: 5px;
+    transition: color 0.5s ease; /*Transição suave na 
+    mudança de cor*/
+}
+#menu-hover a::after{
+    content: "";/*Cria um elemento vazio*/
+    position: absolute; /*Posição da linha em relação ao texto*/
+    bottom: 0;
+    left: 0; /*A linha irá começar a aparecer do lado esqeurdo*/
+    width: 0; /*Linha começa "invisivel" com 0% de largura*/
+    background-color: white;
+    transition: width 0.5s ease;
+    height: 2px; /*Adicionamos uma altura*/
+}
+
+#menu-hover a:hover::after{
+    width: 100%;
+}
+
+#chef{
+    text-align: center;
+    margin-left: 30%;
+    padding-right: 30%;
 }
